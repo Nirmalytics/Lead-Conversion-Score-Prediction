@@ -41,7 +41,10 @@ I created an XGBClassifier model with parameters,
 ## Conclusion
 Age have a role on Creditcard interest.
 As age increase, CreditcardInterest also increase.
-Those customers with high 'Vinate_Age_ratio' will have more chance of conversion
+
+Those customers with high 'Vinate_Age_ratio' will have more chance of conversion.
+
 Customers who had availed earlier Credit_Products and those customers who are reluctant to answer had more chance for Lead conversion
-Saalaried and Other occupation has more chance for leadConversion
+
+Salaried and Other occupation has more chance for leadConversion.
 
