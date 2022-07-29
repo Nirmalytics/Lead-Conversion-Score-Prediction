@@ -8,8 +8,16 @@ Now, the bank is looking for your help in identifying customers that could show 
 Customer details (gender, age, region etc.) 
 Details of his/her relationship with the bank (Channel_Code,Vintage, 'Avg_Asset_Value etc.)
 
-### Predict the customers that could show higher intent towards a recommended credit card
+## Predict the customers that could show higher intent towards a recommended credit card
 
+### expected inputs to the model
+
+Customer details (gender, age, region etc.)
+Details of his/her relationship with the bank (Channel_Code,Vintage, Avg_Asset_Value etc.)
+Target variable : Is_Lead (Lead_Prediction)
+
+evaluation protocol -The evaluation metric for this Problem is roc_auc_score
+Its a Supervised - classification problem
 
 ## PREDICTION MODEL
 I created an XGBClassifier model with parameters, 
